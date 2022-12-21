@@ -8,22 +8,22 @@ weight: 2
 ### Move faster than your adversaries with powerful purpose-built XDR, attack surface risk management, and zero trust capabilities
 ![TrendMicro](/images/logo.png)
 
-In this demo, you’ll learn how to use the Trend Micro Vision One Platform, to quickly detect and respond to ransomware attack, minimizing the impact that this kind of threat can cause to companies.
+In this demo, you’ll learn how to use the Trend Micro Vision One Platform, to quickly detect and respond to attacks that intends to exfiltrate sensitive data and encrypt files (ranwomesre), minimizing the impact that this kind of threat can cause to companies.
 
 --------
 ## Use Cases Covered in this Demo
 With this demo, you can simulate Real World uses cases like:
 
-<b>- A company is running important business applications on an EC2 Instance. A Cloud Engineer, when trying to download the latest version of Mozilla Firefox, by mistake will download a run a compromised version of Mozilla Firefox. After that, the affected EC2 Instance will start communicating with an Command and Control Server managed by the attacker.</b>
+<b>- A company is running important business applications on an EC2 Instance. A Cloud Engineer, when trying to download the latest version of Mozilla Firefox, by mistake will download a run a compromised version of Mozilla Firefox. After that, the affected EC2 Instance will start communicating with a Command and Control Server managed by the attacker.</b>
 
 <b>- During this attack, the attacker will have access sensitive information, that will be exfiltrated and before disconnecting from the affected environment, the attacker will drop a ransomware, requesting money to decrypt the sensitive data present on the affected computer.</b>
 
-<b>- In this demo you will discover how just the Trend Micro Vision One XDR Agent could help detecting this attack, and automatically responding to it, avoiding other devices present in the same network to be compromised (isolating the affected computer before it is used to do lateral movement and compromise other computers or services).</b>
+<b>-  In this demo, you will discover how the Trend Micro Vision One XDR Agent could help detect this attack and automatically respond to it.</b>
 
 --------
 ## Workshop Structure
 
-The workshop is divided into the sections listed below. Plan on setting aside 1:30 hour to complete the full workshop.
+The workshop is divided into the sections listed below. Plan on setting aside 1 hour to complete all the steps of this workshop.
 
 <span style="color: #4e3eb1;"><i class='fas fa-check fa-xs'></i></span> <b> 1. Introduction (5 minutes)</b> 
 
@@ -59,3 +59,4 @@ For any additional help please reach out to:
 </li>
 </ul>
 <p>Built with <i class="far fa-heart" style="color: red;"></i> by Trend Micro Team</p>
+
