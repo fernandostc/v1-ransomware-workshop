@@ -21,7 +21,7 @@ The Mitre Caldera is our attacking tool. It simulates a Command and Control Serv
 ### Enabling the Vision One XDR Agent (Automatic Activation)
 The following instructions will guide you on how to enable the Vision One XDR Agent automatic activation.
 
-{{< youtube id="KopbFrnssCk" >}}
+{{< youtube id="X4Js_Tr61PA" >}}
 
 ---
 ### Creating the base AWS environment using AWS CloudFormation Template
@@ -29,5 +29,5 @@ Using your AWS Account, deploy the following Cloud Formation Template and follow
 
 <a href="https://console.aws.amazon.com/cloudformation/home#/stacks/new?stackName=V1-Ransomware-Workshop&templateURL=https://v1demoplatform.s3.us-west-1.amazonaws.com/v1-ransomware-demo/v1-ransomware-workshop.yaml" target="_blank"><img src="https://cdn.rawgit.com/buildkite/cloudformation-launch-stack-button-svg/master/launch-stack.svg" /></a>
 
-{{< youtube id="-cKYxCvRXWk" >}}
+{{< youtube id="9EnIrsCRvMI" >}}
 

