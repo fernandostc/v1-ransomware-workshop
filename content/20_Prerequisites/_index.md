@@ -1,6 +1,6 @@
 ---
 title: "Prerequisites"
-chapter: true
+chapter: false
 weight: 20
 pre: "<b>2. </b>"
 ---

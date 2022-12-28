@@ -8,22 +8,24 @@ weight: 2
 ### Move faster than your adversaries with powerful purpose-built XDR, attack surface risk management, and zero trust capabilities
 ![TrendMicro](/images/logo.png)
 
-In this demo, you’ll learn how to use the Trend Micro Vision One Platform, to quickly detect and respond to attacks that intends to exfiltrate sensitive data and encrypt files (ranwomesre), minimizing the impact that this kind of threat can cause to companies.
+In this demo, you’ll learn how to use the Trend Micro Vision One Platform to quickly detect and respond to attacks that intend to exfiltrate sensitive data and encrypt files (ransomware), minimizing the impact that this kind of threat can have on companies.
 
 --------
 ## Use Cases Covered in this Demo
 With this demo, you can simulate Real World uses cases like:
 
-<b>- A company is running important business applications on an EC2 Instance. A Cloud Engineer, when trying to download the latest version of Mozilla Firefox, by mistake will download a run a compromised version of Mozilla Firefox. After that, the affected EC2 Instance will start communicating with a Command and Control Server managed by the attacker.</b>
+> Data Exfiltration on an AWS EC2 Instance
 
-<b>- During this attack, the attacker will have access sensitive information, that will be exfiltrated and before disconnecting from the affected environment, the attacker will drop a ransomware, requesting money to decrypt the sensitive data present on the affected computer.</b>
+- A company is running business applications on an EC2 Instance. A Cloud Engineer, when trying to download the latest version of Mozilla Firefox, by mistake will download a run a compromised version of Mozilla Firefox. After that, the affected EC2 Instance will start communicating with a Command and Control Server managed by an attacker.
 
-<b>-  In this demo, you will discover how the Trend Micro Vision One XDR Agent could help detect this attack and automatically respond to it.</b>
+- During this attack, the attacker will have access to sensitive information that will be exfiltrated. Before disconnecting from the affected environment, the attacker will drop ransomware, requesting money to decrypt the sensitive computer's sensitive data.
+
+In this demo, you will discover how the Trend Micro Vision One XDR Agent could help detect this attack and automatically respond to it.
 
 --------
 ## Workshop Structure
 
-The workshop is divided into the sections listed below. Plan on setting aside 1 hour to complete all the steps of this workshop.
+The workshop is divided into the sections listed below. Plan on setting aside 40 minutes to complete all the steps of this workshop.
 
 <span style="color: #4e3eb1;"><i class='fas fa-check fa-xs'></i></span> <b> 1. Introduction (5 minutes)</b> 
 
@@ -31,11 +33,9 @@ The workshop is divided into the sections listed below. Plan on setting aside 1 
 
 <span style="color: #4e3eb1;"><i class='fas fa-check fa-xs'></i></span> <b> 3. Lab Preparation (5 minutes)</b>
 
-<span style="color: #4e3eb1;"><i class='fas fa-check fa-xs'></i></span> <b> 4. Demo - Prevention Mode (20 minutes)</b>
+<span style="color: #4e3eb1;"><i class='fas fa-check fa-xs'></i></span> <b> 4. Attacking Phase (20 minutes)</b>
 
-<span style="color: #4e3eb1;"><i class='fas fa-check fa-xs'></i></span> <b> 5. Demo - Prevention Mode (20 minutes)</b>
-
-<span style="color: #4e3eb1;"><i class='fas fa-check fa-xs'></i></span> <b> 6. CleanUp (5 minutes)</b>
+<span style="color: #4e3eb1;"><i class='fas fa-check fa-xs'></i></span> <b> 5. CleanUp (5 minutes)</b>
 
 --------
 

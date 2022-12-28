@@ -1,15 +1,15 @@
 ---
 title: "Cleanup"
 chapter: false
-weight: 70
-pre: "<b>7. </b>"
+weight: 60
+pre: "<b>6. </b>"
 ---
 
 ### Cleanup your Environment
 
-Now that you have successfully completed this lab, to avoid charges please delete the Cloud Formation Template used to create this demo environment.
+Now that you have completed this lab, to avoid additional charges (AWS), please delete the Cloud Formation Template used to create this demo environment.
 
-You can do this by checking your AWS Management Console > Cloud Formation, then selecting the CFT used in this demo and deleting it.
+You can do this by checking your AWS Management Console > Cloud Formation, selecting the CFT used in this demo, and deleting it.
 
 ![Endpoint_Deployment](/images/ztsa-cft-delete.png) 
 
